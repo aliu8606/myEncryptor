@@ -107,6 +107,7 @@ public class Encryptor {
                 block[i][k] = temp[k];
             }
         }
+        printBlock();
     }
 
     private void encryptColShift() {
